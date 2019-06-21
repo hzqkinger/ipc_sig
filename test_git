@@ -1,12 +1,16 @@
+github有两种更新的渠道，一种是https的，一种是ssh的，其中https每次都要输入密码
 
+# 下面使用的是https渠道来更新远端仓库 ==========================================
 [hz@MiWiFi-R4-srv ipc_sig]$ git remote -v
 origin	https://github.com/hzqkinger/ipc_sig.git (fetch)
 origin	https://github.com/hzqkinger/ipc_sig.git (push)
+# 从https渠道更改到ssh渠道 ======================================================
 [hz@MiWiFi-R4-srv ipc_sig]$ git remote set-url origin git@github.com:/hzqkinger/ipc_sig.git
-
+# 
+# 下面使用的是ssh渠道来更新远端仓库 =============================================
 [hz@MiWiFi-R4-srv ipc_sig]$ git remote -v
 origin	git@github.com:/hzqkinger/ipc_sig.git (fetch)
 origin	git@github.com:/hzqkinger/ipc_sig.git (push)
+# 从ssh渠道更改到https渠道 ==============================================
+[hz@MiWiFi-R4-srv ipc_sig]$ git remote set-url origin https://github.com/hzqkinger/ipc_sig.git]
 
-
-git remote set-url origin https://github.com/hzqkinger/ipc_sig.git
