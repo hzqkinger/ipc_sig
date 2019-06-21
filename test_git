@@ -1,0 +1,4 @@
+[hz@MiWiFi-R4-srv ipc_sig]$ git remote -v
+origin	https://github.com/hzqkinger/ipc_sig.git (fetch)
+origin	https://github.com/hzqkinger/ipc_sig.git (push)
+[hz@MiWiFi-R4-srv ipc_sig]$ git remote set-url origin git@github.com/hzqkinger/ipc_sig.git
